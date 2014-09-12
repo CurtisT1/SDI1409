@@ -1,4 +1,4 @@
-alert("JavaScript works!");
+//alert("JavaScript works!");
 
 
 // Curtis Tate
@@ -72,6 +72,7 @@ if (myprompt === "Lighting Fist Strike") {
 	} else {
 console.log ("Then this spell might just work");
 };
+
 
 
 // Loop
