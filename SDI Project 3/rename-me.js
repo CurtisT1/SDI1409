@@ -73,7 +73,7 @@ if (myprompt === "Lighting Fist Strike") {
 };
 	} else {
 console.log ("Then this spell might just work");
-
+};
 
 
 
