@@ -89,6 +89,49 @@ var hoursOfMatch = function(battlingHours){
 
 hoursOfMatch(1);
 
+console.log("Warwick went into hyper light phantom mode this is his ultimate his a cocoon of light went over his body to charge");
+console.log("Round 2 starts ",character1," was amaze he got up after all the attacks",character1," is drain of magically energy");
 
+// Function 
+
+var chargingTime = function (character1Name,hpyermode) {
+	console.log(charging + time + character2);
+var hpyerMode = function(character2Name) {
+var cocoon = "Light Phantom Mode";
+ console.log(character2Name + charging + time);
+ 
+ };
+ 
+ 
+ // Arrays 
+
+
+var characterNames = ["character1" , "character2"];
+
+console.log(characterNames);
+
+for (var i = 0; i < characterNames.length; i++) {
+
+if (characterNames[i] === "character1") {
+
+console.log(characterNames[i] + "Laxus is the strongest if Warwick beat him it would shocking.");
+
+};
+
+};
+
+
+// Nested Conditional
+
+
+var character1 = true
+
+if (character1 === true){
+
+console.log("laxus is out of magically energy attack him.");
+} else { 
+	console.log("laxus still have time to come u with a plan");
+
+};
 
 
