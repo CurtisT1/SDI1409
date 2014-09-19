@@ -18,18 +18,6 @@ var spell2 = "Lighting Sky Strike";
 var battlinghours = "1";
 
 
-// Procedure
-
-var hoursOfMatch = function(battlingHours){
-	if (battlingHours > 1) {
-		console.log("The wizard have" + battlingHours + " hours to fight before the next match!");
-		}else{
-			console.log("If time runs out and if no one wins go to round two.");
-	}
-};
-
-hoursOfMatch(1);
-
 
 // outputs of variables 
 
@@ -74,6 +62,33 @@ if (myprompt === "Lighting Fist Strike") {
 	} else {
 console.log ("Then this spell might just work");
 };
+
+
+// Loop
+
+var spell2 = 3;
+while(spell2 > 0) {
+	console.log(spell2 + "",character2," is confused while",character1," keep hitting him from different angles of the battlefield.")
+	spell2--;
+};
+
+
+console.log("He Thought that this would do it Warwick was paralyzed and ",character1, " was out of magic power")	
+
+
+
+// Procedure
+
+var hoursOfMatch = function(battlingHours){
+	if (battlingHours > 1) {
+		console.log("The wizard have" + battlingHours + " hours to fight before the next match!");
+		}else{
+			console.log("If time runs out and if no one wins go to round two.");
+	}
+};
+
+hoursOfMatch(1);
+
 
 
 
