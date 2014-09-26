@@ -42,7 +42,7 @@ var urlCheck = function (u1, u2) {
 
 
 // 4.) given a string version of a number such as "42", return the value as a actual number,such as 42.
-var numvalue = function (mynumber); {
+var numvalue = function (mynumber) {
 	return Number (myNumber);
 
 };
@@ -68,7 +68,7 @@ return {
 "urlCheck": urlcheck,
 "numvalue": numvalue,
 "inputslash": inputSlash,
-"nameCheck": inputslash
+"nameCheck": nameCheck
 };
 
 }
@@ -77,3 +77,7 @@ var myNewlibrary = myNewLibrary();
 
 console.log(myNewLibrary.numCheck("900-013-7435"));
 console.log(myNewlibrary.decimal("4.32145456498,3"));
+console.log(myNewlibrary.urlCheck("http://www.ign.com"));
+console.log(mynewlibrary.numvalue("50"));
+console.log(mynewlibrary.inputSlash("P K H","/"));
+console.log (myNewlibrary.nameCheck("jed"));
