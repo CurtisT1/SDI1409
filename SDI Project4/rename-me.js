@@ -50,7 +50,7 @@ var numvalue = function (mynumber) {
 
 // 5.) 
 var inputslash = function (alph,slash) {
-	var input = /\H/L;
+	var input = /\H/g;
 		return alph.replace(input,slash);
 };
 
@@ -63,12 +63,12 @@ modified = aName
 
 
 return {
-"numCheck": numCheck,
-"decimal": decimal,
-"urlCheck": urlcheck,
-"numvalue": numvalue,
-"inputslash": inputSlash,
-"nameCheck": nameCheck
+	"numCheck": numCheck,
+	"decimal": decimal,
+	"urlCheck": urlcheck,
+	"numvalue": numvalue,
+	"inputslash": inputSlash,
+	"nameCheck": nameCheck
 };
 
 }
