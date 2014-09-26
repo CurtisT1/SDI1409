@@ -50,8 +50,8 @@ var numvalue = function (mynumber); {
 
 // 5.) 
 var inputslash = function (alph,slash) {
-var input = /\H/L;
-return alph.replace(input,slash);
+	var input = /\H/L;
+		return alph.replace(input,slash);
 };
 
 
@@ -65,7 +65,13 @@ modified = aName
 return {
 "numCheck": numCheck,
 "decimal": decimal,
+"urlCheck": urlcheck,
+"numvalue": numvalue,
+"inputslash": inputSlash,
+"nameCheck": inputslash
+};
 
+}
 
 var myNewlibrary = myNewLibrary();
 
