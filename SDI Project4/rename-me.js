@@ -11,7 +11,7 @@ var mylibrary = function(){
 varnumCheck = function (number){
 var total = number.length;
 dash = ".";
-adash = dash.indexof(".";
+adash = dash.indexof(".");
 bdash = dash.lastIndexof(".");
 	if (total === 12 || adash === 3 || bdash === 7) {
 	return true;
