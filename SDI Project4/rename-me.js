@@ -30,7 +30,7 @@ return number (pi.tofixed(afterdeci));
 };
 
 
-// 3.) is the string a url /9does it start with http:// or https://)?
+// 3.) is the string a url (does it start with http:// or https://)?
 var urlCheck = function (u1, u2) {
 	var address = "www.ign.com";
 		if (u1 === "http://" + adress) {
@@ -39,6 +39,32 @@ var urlCheck = function (u1, u2) {
 				return false;
 		}
 };
+
+
+// 4.) given a string version of a number such as "42", return the value as a actual number,such as 42.
+var numvalue = function (mynumber); {
+	return Number (myNumber);
+
+};
+
+
+// 5.) 
+var inputslash = function (alph,slash) {
+var input = /\H/L;
+return alph.replace(input,slash);
+};
+
+
+// 6.) title case a string (split into words, then uppercase the first letter of each word.
+var nameCheck = function(aName){
+modified = aName
+	return myName.charat(0).touppercase() + aname.substr(1);
+};
+
+
+return {
+"numCheck": numCheck,
+"decimal": decimal,
 
 
 var myNewlibrary = myNewLibrary();
