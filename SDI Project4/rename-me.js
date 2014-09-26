@@ -1,4 +1,4 @@
-alert("JavaScript works!");
+// alert("JavaScript works!");
 
 /*Curtis Tate
 SDI 1409	
@@ -28,3 +28,20 @@ var decimal = function (pi,afterdeci) {
 return number (pi.tofixed(afterdeci));
 
 };
+
+
+// 3.) is the string a url /9does it start with http:// or https://)?
+var urlCheck = function (u1, u2) {
+	var address = "www.ign.com";
+		if (u1 === "http://" + adress) {
+			return true;
+				}else {
+				return false;
+		}
+};
+
+
+var myNewlibrary = myNewLibrary();
+
+console.log(myNewLibrary.numCheck("900-013-7435"));
+console.log(myNewlibrary.decimal("4.32145456498,3"));
